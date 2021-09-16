@@ -1,0 +1,97 @@
+body {
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+#nav {
+  list-style-type: none;
+  line-height: 2.5rem;
+}
+
+header {
+  position: relative;
+  padding: 10px 30px 10px 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid pink;
+  background-color: #fff;
+  font-size: 16px;
+  z-index: 20;
+}
+
+#logo {
+  display: inline;
+  color: black;
+  text-decoration: none;
+  font-size: 28.8px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+li {
+  padding-right: 2rem;
+}
+
+.arrow {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -1px;
+  margin-left: 6px;
+  margin-right: -14px;
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid #4f5959;
+}
+
+.search-query {
+  height: 1.875rem;
+  line-height: 1.875rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: url("/images/search.png") 8px 5px no-repeat;
+  padding: 0 15px 0 30px;
+  border: 1px solid #e3e3e3;
+  color: #273849;
+  outline: none;
+  border-radius: 15px;
+  margin-right: 10px;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  background: #fff url("/images/search.png") 8px 5px no-repeat;
+  background-size: 20px;
+  opacity: 0.5;
+  vertical-align: middle !important;
+  cursor: text;
+}
+
+.nav-dropdown-container {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
